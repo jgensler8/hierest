@@ -1,0 +1,11 @@
+---
+:backends:
+  - yaml
+:yaml:
+  :datadir: "data"
+:hierarchy:
+  - "name/%{name}"
+  - "common"
+:logger: console
+:merge_behavior: native
+:deep_merge_options: {}

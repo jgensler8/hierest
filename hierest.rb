@@ -5,8 +5,8 @@ require 'logger'
 
 
 class HierestThing
-  def initialize()
-    @logger = Logger.new(STDOUT)
+  def initialize(log_stream)
+    @logger = Logger.new(log_stream)
     @logger.level = Logger::DEBUG
   end
 
